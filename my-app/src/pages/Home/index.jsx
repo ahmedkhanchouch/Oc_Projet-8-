@@ -1,10 +1,16 @@
 import React from "react";
-
-function App() {
+// import Card from "../../components/Card";
+import Location from "../../components/Locations";
+import Cover from "../../components/Cover";
+import Footer from "../../components/Footer";
+function Home() {
   return (
-    <div className="App">
+    <div className="Home">
+      <Cover/>
+      <Location />
+      <Footer />
     </div>
   );
 }
 
-export default App;
+export default Home;

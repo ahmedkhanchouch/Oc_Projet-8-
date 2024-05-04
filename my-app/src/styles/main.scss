@@ -1,0 +1,30 @@
+// design systeme 
+:root {
+    // color 
+    --red : #FF6060;
+    --grey: #F6F6F6 ;
+
+    //  Text configuration 
+     --body-font: 'Montserrat';
+     --section-font : 'Montserrat';
+     --footer-font : 'Montserrat';
+     --header-font : 'Montserrat';
+
+    //  font size
+    --body-font-size : 1.125rem;
+    --section-font-size : 3rem;
+    --footer-font-size : 1.5rem;
+    --header-font-size : 1.5rem;
+
+    // font weight
+    --body-font-weight : 700;
+    --section-font-weight : 700;
+    --footer-font-weight : 500;
+    --header-font-weight : 500;
+
+    // line height
+    --body-line-height : 1.60425rem;
+    --section-line-height : 4.278rem;
+    --footer-line-height : 2.139rem;
+    --header-line-height : 2.139rem;
+}
