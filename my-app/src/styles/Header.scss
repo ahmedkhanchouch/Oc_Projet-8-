@@ -1,18 +1,24 @@
+@import 'main';
+
+
+
 .Header {
   display: flex;
-// width: 77.5rem;
-// height: 4.25rem;
-justify-content: space-between;
-align-items: center;
-// gap: 45.04238rem;
+  gap: 45rem;
+  align-items: center;
+  justify-content: center;
   .Header_navBar {
     display: flex;
     justify-content: center;
     align-items: center;
     display: flex;
-align-items: flex-start;
-gap: 3.5625rem;
-    min-height: 10vh;
+    align-items: flex-start;
+    gap: 3.5625rem;
     color: white;
+    text-decoration: none;
+    font-family: $body-font;
+    font-size: $header-font-size;
+    font-weight: $header-font-weight;
+    color: $red;
   }
 }

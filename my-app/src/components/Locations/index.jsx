@@ -1,4 +1,6 @@
 import Card from "../Card";
+import {Link} from "react-router-dom";
+// import Logement from "../pages/Logement/index.jsx";
 import '../../styles/Location.scss';
 const Data =[ 
     
@@ -58,8 +60,9 @@ const cover = "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/
 function Location() {
     return (
     
+       <Link to="/logement" > 
     <div className="CardWrapper">
-        {Data.map((profile) => (
+       {Data.map((profile) => (
           <Card
             key={profile.id}
             label={profile.title}
@@ -68,6 +71,7 @@ function Location() {
           />
         ))}
     </div>
+        </Link>  
     
     )
 }

@@ -1,0 +1,18 @@
+.collapse {
+    // overflow: hidden;
+    transition: max-height 0.3s ease;
+    max-height: 0;
+  }
+  
+  .collapse.open {
+    max-height: 1000px; /* ou une valeur suffisamment grande pour contenir votre contenu */
+  }
+  
+  .collapse-header {
+    cursor: pointer;
+  }
+  
+  .collapse-content {
+    padding: 10px;
+  }
+  

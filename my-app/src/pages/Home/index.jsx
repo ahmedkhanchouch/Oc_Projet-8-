@@ -1,14 +1,20 @@
 import React from "react";
-// import Card from "../../components/Card";
+import Header from "../../components/Header";
 import Location from "../../components/Locations";
 import Cover from "../../components/Cover";
 import Footer from "../../components/Footer";
+import "../../styles/Home.scss";
+
+
 function Home() {
   return (
-    <div className="Home">
+    <div>
+      <div className="Home">
+      <Header/>
       <Cover/>
       <Location />
       <Footer />
+    </div>
     </div>
   );
 }
