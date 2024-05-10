@@ -10,6 +10,7 @@ function Card({ label, title, picture }) {
             <span>{title}</span>
             <span className='card_Title'>{label}</span>
         </div>
+      
  
     )
 }

@@ -2,9 +2,9 @@ import cover from '../../Assets/cover.png'
 import '../../styles/cover.scss'
 function Cover() {
     return (
-        <div className='Cover' >
+        <div className="Cover" >
             <img className="Cover_image" src={cover} alt="cover" />
-            <h1 className='Cover_Title'>Chez vous, partout et ailleurs</h1>
+            <h1 className="Cover_Title">Chez vous, partout et ailleurs</h1>
         </div>
     )
 }

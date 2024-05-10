@@ -10,11 +10,11 @@ function Home() {
   return (
     <div>
       <div className="Home">
-      <Header/>
-      <Cover/>
-      <Location />
-      <Footer />
+        <Header/>
+        <Cover/>
+        <Location />
     </div>
+      <Footer />
     </div>
   );
 }

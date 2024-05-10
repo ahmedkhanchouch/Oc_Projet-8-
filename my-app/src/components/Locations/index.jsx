@@ -56,22 +56,21 @@ const Data =[
     }
     ]
 
-const cover = "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+
 function Location() {
     return (
     
-       <Link to="/logement" > 
-    <div className="CardWrapper">
-       {Data.map((profile) => (
-          <Card
-            key={profile.id}
-            label={profile.title}
-            title={profile.cover}
-            picturer={cover}
-          />
-        ))}
-    </div>
-        </Link>  
+        <div className="Cardcontainer">
+            {Data.map((profile) => (
+                <Link to="/logement" > 
+                        <Card
+                            key={profile.id}
+                            label={profile.title}
+                            title={profile.cover}
+                        />
+                </Link>  
+            ))}
+        </div>
     
     )
 }

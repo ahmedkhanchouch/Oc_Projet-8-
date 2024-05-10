@@ -1,16 +1,25 @@
+@import 'main';
 
 
-.card{
-
-  background-color: #ff5f5f;
-  border-radius: 10px;
-  width: 21.25rem;
-  height: 21.25rem;
-  flex-shrink: 0;
-  position: relative;
-  .card_Title{
-    position: absolute;
-    top: 267px;
-  }
+  .card{
+  
+    background-color: $color-primary;
+    border-radius: 10px;
+    width: 21.25rem;
+    height: 21.25rem;
+    flex-shrink: 0;
+    position: relative;
+    .card_Title{
+      position: absolute;
+      top: 281px;
+      left: 20px;
+      color: $color-tertiary;
+      font-family: Montserrat;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 142.6%; /* 1.60425rem */
+    }
 }
+
 

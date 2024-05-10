@@ -9,12 +9,14 @@ const Collapse = ({ title, children }) => {
   };
 
   return (
-    <div>
-      <div onClick={toggleCollapse} style={{ cursor: 'pointer' }}>
-        <h2>{title}</h2>
+    
+      <div className='collapse'>
+        <div onClick={toggleCollapse} className='collapse-header' style={{ cursor: 'pointer' }}>
+          <h2 className='collapse-title'>{title}</h2>
+        </div>
+        {isOpen && <div className='collapse-content'>{children}</div>}
       </div>
-      {isOpen && <div>{children}</div>}
-    </div>
+  
   );
 };
 
