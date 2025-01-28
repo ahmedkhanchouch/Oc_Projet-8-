@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import './Slideshow.css'; // Importer le fichier CSS pour les styles du diaporama
+//import './Slideshow.css'; // Importer le fichier CSS pour les styles du diaporama
 
 const Slideshow = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

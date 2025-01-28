@@ -1,5 +1,6 @@
 @import 'main';
 
+
 .collapse-container {
   display: inline-flex;
   flex-direction: column;
@@ -22,6 +23,7 @@
         align-items: center;
         border-radius: 0.3125rem;
         background: var(--Red, #FF6060);
+        justify-content: space-between;
       }
       .collapse-title {
         // display: flex;

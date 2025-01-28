@@ -1,14 +1,14 @@
 
 import PropTypes from 'prop-types';
 import '../../styles/Card.scss';
-function Card({ label, title, picture }) {
+function Card({  title, picture }) {
 
     return (
       
         <div className="card">
-            {/* <img src={''} alt="cover" height={80} width={80} /> */}
-            <span>{title}</span>
-            <span className='card_Title'>{label}</span>
+            <img src={picture} class="card-image" alt="cover" />
+          
+            <span className='card_Title'>{title}</span>
         </div>
       
  

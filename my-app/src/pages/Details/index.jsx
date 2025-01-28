@@ -5,6 +5,7 @@ import Cover from '../../components/Cover';
 import Footer from '../../components/Footer';
 import '../../styles/Collapse.scss';
 
+
 function Details() {
 
   return (
@@ -13,8 +14,8 @@ function Details() {
       <Headers />
       <Cover />
         <div className='collapse-container'>
-          <Collapse title="Fiabilité">
-            Les annonces poster sur Kasa garantissant une Fiabilité totale. Les photos sont conformees aux logements , et toutes les informations sont regulierement verifées par nos equipes
+          <Collapse title="Fiabilité" > 
+           Les annonces poster sur Kasa garantissant une Fiabilité totale. Les photos sont conformees aux logements , et toutes les informations sont regulierement verifées par nos equipes
           </Collapse>
           <Collapse title="Resepct">
             La bienveillance fait partie de nos valeurs fondatrices de Kasa . Tout comportement discriminatoire ou de perturbation  du voisinage entrainera une exclusion de notre plateforme.

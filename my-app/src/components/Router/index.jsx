@@ -10,8 +10,8 @@ function RouterComponent() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/details" element={<Details />} />
+        <Route path="/logement/:id" element={<Logement/>} />
         <Route path="*" element={<Error />} />
-        <Route path="/logement" element={<Logement/>} />
       </Routes>
     </Router>
     )
