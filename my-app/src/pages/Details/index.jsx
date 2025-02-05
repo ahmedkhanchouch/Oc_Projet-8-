@@ -3,7 +3,7 @@ import Headers from '../../components/Header';
 import Collapse from '../../components/Collapse'; // Chemin vers votre composant Collapse
 import Cover from '../../components/Cover';
 import Footer from '../../components/Footer';
-import '../../styles/Collapse.scss';
+import '../../styles/details.scss';
 
 
 function Details() {

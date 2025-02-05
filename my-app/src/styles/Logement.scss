@@ -1,0 +1,51 @@
+// Page Logement
+.logement{
+    display: flex;
+    // width: 1440px;
+    padding-top: 45px;
+    flex-direction: column;
+    // align-items: center;
+    gap: 50px;
+    .container{
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        gap: 50px;
+        padding-left: 100px;
+        padding-right: 100PX;
+    }
+
+        .collapse-container {
+            display: inline-flex;
+            flex-direction: row;
+            align-items: CENTER;
+            gap: 70px;
+            // margin-bottom: 200px;
+
+            .collapse-header, .collapse-content {
+                width: 100%;
+            }
+
+            .collapse {
+                width: 100%;
+                gap: 20px;
+                min-height: 300px;
+            }
+
+      
+        }
+
+        .container_title{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container_tags {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+}
+ 

@@ -4,9 +4,11 @@
 
 .Header {
   display: flex;
-  gap: 45rem;
+  // gap: 45rem;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0px 100px;
   .Header_navBar {
     display: flex;
     justify-content: center;

@@ -9,5 +9,15 @@
         line-height: 142.6%; /* 19.964px */
         border-radius: 10px;
         background: #FF6060;
+        width: 115px;
+        // height: 25px;
+        flex-shrink: 0;
+        list-style: none;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-direction: row;
+        min-height: 40px;
 
   }

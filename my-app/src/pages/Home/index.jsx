@@ -1,22 +1,21 @@
-import React from "react";
-import Header from "../../components/Header";
-import Location from "../../components/Locations";
-import Cover from "../../components/Cover";
-import Footer from "../../components/Footer";
-import "../../styles/Home.scss";
-
+import React from 'react'
+import Header from '../../components/Header'
+import Location from '../../components/Locations'
+import Cover from '../../components/Cover'
+import Footer from '../../components/Footer'
+import '../../styles/Home.scss'
 
 function Home() {
   return (
     <div>
       <div className="Home">
-        <Header/>
-        <Cover/>
+        <Header />
+        <Cover />
         <Location />
-    </div>
+      </div>
       <Footer />
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home

@@ -23,41 +23,6 @@ Header.propTypes = {
     LOGO: PropTypes.string,
   };
 
-// function Header ({ screen, active, LOGO = "LOGO-3.png" }) {
-//     return (
-//       <div className={`header ${screen}`}>
-//         <img
-//           className="LOGO"
-//           alt="Logo"
-//           src={
-//             screen === "desktop" && active === "a-propos"
-//               ? "image.png"
-//               : screen === "desktop" && active === "none"
-//               ? LOGO
-//               : screen === "mobile" && active === "accueil"
-//               ? "LOGO.png"
-//               : active === "a-propos" && screen === "mobile"
-//               ? "LOGO-2.png"
-//               : active === "none" && screen === "mobile"
-//               ? "LOGO-4.png"
-//               : "LOGO-5.png"
-//           }
-//         />
-//         <div className="nav">
-//           <div className={`div screen-1-${screen} ${active}`}>
-//             {screen === "desktop" && <>Accueil</>}
-  
-//             {screen === "mobile" && <>ACCUEIL</>}
-//           </div>
-//           <div className={`a-propos-2 screen-2-${screen} ${active}`}>
-//             {screen === "desktop" && <>A Propos</>}
-  
-//             {screen === "mobile" && <>A PROPOS</>}
-//           </div>
-//         </div>
-//       </div>
-//     );
-//   };
-  
+
   
 export default Header
