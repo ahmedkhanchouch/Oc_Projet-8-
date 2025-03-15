@@ -54,8 +54,8 @@ const App = () => {
             </Collapse>
           </div>
         </div>
-          <Footer />
       </div>
+          <Footer />
     </div>
   )
 }

@@ -5,5 +5,9 @@
     gap: 1.875rem;
     margin-bottom: 40px;
     width: 100%;
+    // padding: 0px 36px;
+    @media (max-width: 599px) {
+      padding: 0px ;
+    }
   
 }

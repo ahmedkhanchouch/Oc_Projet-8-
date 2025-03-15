@@ -1,17 +1,12 @@
 .footer{
     background-color: black;
-    // margin: 0%;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
     display: flex;
-
-padding: 4.125rem 29rem 1.8125rem 28.9375rem;
-flex-direction: column;
-justify-content: flex-end;
-align-items: center;
-gap: 1.78475rem;
+    padding: 2.5rem 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.78475rem;
+    // padding: 0px ;
     .footer_text{
         color: white;
     }

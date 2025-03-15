@@ -5,8 +5,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     padding: 58px;
     gap: 48px;
-    // justify-content: center;
-    // align-items: center;
-    margin: auto;
-    // width: 77.5rem;
+    @media (max-width: 599px) {
+      gap: 20px;
+      background:white ;
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+
+    }
   }

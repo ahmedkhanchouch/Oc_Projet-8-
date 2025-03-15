@@ -4,11 +4,12 @@
 
 .Header {
   display: flex;
-  // gap: 45rem;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  padding: 0px 100px;
+  @media (max-width: 599px) {
+    padding: 0;
+  }
   .Header_navBar {
     display: flex;
     justify-content: center;
@@ -22,5 +23,13 @@
     font-size: $header-font-size;
     font-weight: $header-font-weight;
     color: $color-primary;
+    @media (max-width: 599px) {
+      gap: 1.25rem;
+    }
+  }
+  .Header_image {
+    width: 6.25rem;
+    height: 1.875rem;
+    flex-shrink: 0;
   }
 }

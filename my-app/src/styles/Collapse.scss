@@ -1,17 +1,19 @@
 @import 'main';
   
   .collapse {
+    width: 100%;
     // overflow: hidden;
     transition: max-height 0.3s ease;
     // max-height: 0;
     flex-grow: 1; // Prend tout l'espace disponible
+     
     .collapse.open {
       max-height: 1000px; /* ou une valeur suffisamment grande pour contenir votre contenu */
     }
     .collapse-header {
       cursor: pointer;
       display :flex;
-      width: 63.9375rem;
+      // width: 100%;
       padding: 0.625rem 1.25rem 0.625rem 0.9375rem;
       align-items: center;
       border-radius: 0.3125rem;
@@ -19,11 +21,6 @@
       justify-content: space-between;
     }
     .collapse-title {
-      // display: flex;
-      // flex-direction: column;
-      // justify-content: center;
-      // flex: 1 0 0;
-      // align-self: stretch;
       color: #FFF;
       font-family: Montserrat;
       font-size: 1.5rem;
@@ -35,10 +32,11 @@
     .collapse-content {
       padding: 10px;
       display :flex;
-      width: 63.9375rem;
+      // width: 63.9375rem;
       padding: 0.625rem 1.25rem 0.625rem 0.9375rem;
       align-items: center;
       border-radius: 0.3125rem;
       background: $color-secondary;
+      // min-height: 300px; 
     }
   }

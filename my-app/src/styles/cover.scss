@@ -5,7 +5,7 @@
     justify-content: center;
     position: relative;
     .Cover_image {
-        width: 77.5rem;
+        width: 100%;
         height: 13.9375rem;
         flex-shrink: 0;
         border-radius: 1.5625rem;
@@ -13,6 +13,10 @@
         background: #000;
         filter: brightness(0.5);
         position: relative;
+        @media (max-width: 599px) {
+            height: 8.75rem;
+            border-radius: 0.9375rem;
+        }
     }
     .Cover_Title{
         position: absolute;
@@ -24,6 +28,12 @@
         font-weight: 700;
         line-height: 142.6%;              
         top: 23%;
+        @media (max-width: 599px) {
+            font-size: 24px;
+            line-height: 100%; /* 24px */
+            top: 25%;
+
+        }
     }
 }
 
